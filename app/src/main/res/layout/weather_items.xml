@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/WeatherTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Temprature"
+        android:textSize="30sp"
+        android:textColor="@color/allText"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lableHighTemp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="High"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:textColor="@color/highTemp"/>
+         <TextView
+            android:id="@+id/highvalue"
+             android:layout_width="0dp"
+             android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="TBC"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:textColor="@color/highTemp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lableLowTemp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="low"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:textColor="@color/lowTemp"/>
+        <TextView
+            android:id="@+id/lowvalue"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="TBC"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:textColor="@color/lowTemp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lableLink"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="HyperLink"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:textColor="@color/allText"/>
+        <TextView
+            android:id="@+id/linkvalue"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="TBC"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:textColor="@color/allText"/>
+
+    </LinearLayout>
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/labledate"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:textColor="@color/allText"/>
+        <TextView
+            android:id="@+id/datevalue"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="TBC"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:textColor="@color/allText"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
